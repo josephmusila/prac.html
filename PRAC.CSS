@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+   background-image: "C:\Users\user\repos\reposs\nut.jpg";
+  }
+
+
+  
+  h1{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(211, 28, 119);
+    text-align: center;
+  }
+  p{
+    color: crimson;
+    font-size: medium;
+  }
+  .HEADER{
+    background-color: rgb(221, 91, 15);
+    border-style:double;
+    border-width: thick;
+    border-color: red;
+   text-align: center;
+   font-size: 30px;
+    widows: auto;
+    display: inline-block;
+    margin-left:auto;
+    margin-right: auto;
+   
+  }
+  a{
+    font-size: 20px;
+  }
+  .img{
+    float: left;
+    height: 100px;
+  }
+  
+  
+  a:hover{
+    color: yellow;
+    
+    
+  }
+  a:visited{
+    color: rgb(216, 11, 11);
+  }
+  a:active{
+    color: rgb(223, 238, 12);
+  }
+  a:link{
+    color:biege;
+  }
+  
+  .video{
+    float: center;
+    border: maroon;
+    border-style: solid;
+    width: 200px;
+  }
+  .nav{
+    background-color: rgb(15, 236, 63);
+    height: 50px;
+    font-size: 4px;
+    position: sticky;top: 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+ 
+  .footer{
+   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(201, 21, 171);
+    scroll-behavior: smooth;
+    font-family: serif;
+    font-size: large;
+    box-decoration-break: slice;
+
+  }
+  
+  .marquee{
+    font-style: oblique;
+    font-weight: bolder;
+    
+  }
+  
+  
+  div.form{
+    display: block;
+    text-align: center;
+  }
+  form{
+    display: inline-block;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: left;
+  }
+ 
+  
